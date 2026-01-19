@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitalSync | Patient Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="sidebar">
+        <h2>VitalSync</h2>
+        <nav>
+            <ul>
+                <li class="active">Dashboard</li>
+                <li>My Reports</li>
+                <li>Appointments</li>
+                <li>Settings</li>
+            </ul>
+        </nav>
+        <button class="logout-btn">Logout</button>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <div class="user-info">
+                <h1>Welcome back, Jebaslin</h1>
+                <p>Status: <span class="status-dot"></span> Healthy</p>
+            </div>
+            <div class="profile-badge">
+                <span>Blood: O+</span>
+            </div>
+        </header>
+
+        </div>
+
+</body>
+</html>
+<section class="dashboard-grid">
+    <div class="appointment-card">
+        <div class="card-header">
+            <h3>Upcoming Appointment</h3>
+            <span class="tag">In 2 Days</span>
+        </div>
+        <div class="card-body">
+            <div class="doc-info">
+                <img src="https://via.placeholder.com/50" alt="Doctor" class="doc-img">
+                <div>
+                    <h4>Dr. Aruna Singh</h4>
+                    <p>Consultant Bio-Geneticist</p>
+                </div>
+            </div>
+            <div class="time-info">
+                <p><strong>Date:</strong> Jan 22, 2026</p>
+                <p><strong>Time:</strong> 10:30 AM (Online)</p>
+            </div>
+        </div>
+        <div class="card-footer">
+            <button class="btn-primary">Join Call</button>
+            <button class="btn-secondary">Reschedule</button>
+        </div>
+    </div>
+
+    <div class="stats-card">
+        <h3>Live Vitals</h3>
+        <div class="stat-item">
+            <span>Heart Rate</span>
+            <span class="stat-value">72 BPM</span>
+        </div>
+        <div class="stat-item">
+            <span>Body Temp</span>
+            <span class="stat-value">98.6°F</span>
+        </div>
+    </div>
+</section>
+<section class="history-section">
+    <h3>Recent Medical History</h3>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Visit Reason</th>
+                    <th>Consultant</th>
+                    <th>Report</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>12 Jan 2026</td>
+                    <td>Annual Bio-Metric Scan</td>
+                    <td>Dr. Aruna Singh</td>
+                    <td><span class="view-link">View PDF</span></td>
+                    <td><span class="status-badge completed">Completed</span></td>
+                </tr>
+                <tr>
+                    <td>05 Dec 2025</td>
+                    <td>Blood Glucose Analysis</td>
+                    <td>Lab Tech (Room 302)</td>
+                    <td><span class="view-link">View PDF</span></td>
+                    <td><span class="status-badge completed">Completed</span></td>
+                </tr>
+                <tr>
+                    <td>20 Nov 2025</td>
+                    <td>General Wellness</td>
+                    <td>Dr. Rajesh Kumar</td>
+                    <td><span class="view-link">View PDF</span></td>
+                    <td><span class="status-badge pending">Pending</span></td>
+                </tr>
+                <script src="script.js"></script>
+</body>
+</html>
+            </tbody>
+        </table>
+    </div>
+</section>
